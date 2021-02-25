@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.Tutorial.JDBC_JPA_H2.repository.PersonJpaRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.724 s <<< FAILURE! - in com.example.Tutorial.JDBC_JPA_H2.repository.PersonJpaRepositoryTest
+save  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.Tutorial.JDBC_JPA_H2.repository.PersonJpaRepositoryTest.save(PersonJpaRepositoryTest.java:52)
+
+findByIdTest_2  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.Tutorial.JDBC_JPA_H2.repository.PersonJpaRepositoryTest.findByIdTest_2(PersonJpaRepositoryTest.java:37)
+
+findByIdTest  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.Tutorial.JDBC_JPA_H2.repository.PersonJpaRepositoryTest.findByIdTest(PersonJpaRepositoryTest.java:30)
+
